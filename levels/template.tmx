@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="32" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset_16x16" tilewidth="16" tileheight="16">
+  <image source="../assets/tileset_16x16.png" width="128" height="112"/>
+ </tileset>
+ <layer name="layer4" width="45" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAAAAAOBvFoAAAQ==
+  </data>
+ </layer>
+ <layer name="layer1" width="45" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAAAAAOBvFoAAAQ==
+  </data>
+ </layer>
+ <layer name="layer2" width="45" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAAAAAOBvFoAAAQ==
+  </data>
+ </layer>
+ <layer name="layer3" width="45" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAAAAAOBvFoAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Object1" width="45" height="32"/>
+</map>

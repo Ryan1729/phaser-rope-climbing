@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Simple Game</title>
+	<style> body { margin: 0; background: #B4D9E7; } </style>
+    <script src="phaser.min.js"></script>
+    <script src="rope.min.js"></script>
+</head>
+<body>
+<script>
+(function() {
+	// initialize the framework
+	var game = new Phaser.Game(600, 480, Phaser.AUTO);
+
+    // add game states
+	game.state.add('Boot', Candy.Boot);
+	game.state.add('Preloader', Candy.Preloader);
+	game.state.add('MainMenu', Candy.MainMenu);
+    game.state.add('LevelSelect', Candy.LevelSelect);
+	game.state.add('Game', Candy.Game);
+	// start the Boot state
+	game.state.start('Boot');
+}());
+</script>
+</body>
+</html>
